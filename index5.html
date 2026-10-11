@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body{
+            background-color:#f8f9fa;
+        }
+        .social-section{
+           background-color: darkblue;
+           color: white;
+           padding: 60px 40px;
+           border-radius: 10px;
+        }
+        .section-subtitle{
+          color: yellow;
+          font-weight: 500;
+          margin-bottom: 5px;
+          font-size: 1.2rem;
+        }
+        .section-title{
+          font-weight: 700;
+          margin-bottom: 40px;
+          font-size: 2.5rem;
+        }
+        .social-btn{
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 20px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+            min-width: 180px;
+        }
+        .btn-custom-outline{
+          border:2px solid yellow;
+          color: white;
+          background: transparent;
+        }
+        .btn-custom-outline i{
+            color:#7d84a6;
+            font-size: 1.2rem;
+        }
+        .btn-custom-outline:hover{
+            background-color: rgba(255, 183, 3, 0.1);
+            color: #ffffff;
+        }
+        .btn-custom-solid{
+            background-color:#ffb703;
+            color:#1d2136 ;
+             border: 2px solid #ffb703;
+        }
+        .btn-custom-solid i {
+      color: #2b304d;
+      font-size: 1.1rem;
+    }
+
+    .btn-custom-solid:hover {
+      background-color: #ffa200;
+      border-color: #ffa200;
+      color: #1d2136;
+    }
+    .footer{
+      background-color: darkgrey;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .copyright-text{
+      font-size: 30px;
+      margin: 0;
+      color:#888888;
+    }
+  .copyright-text .highlight{
+    font-weight:bold;
+    color:yellow;
+    
+  }
+
+</style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="social-section">
+          <div class="section-subtitle">Social Media</div>
+          <h2 class="section-title">Let's Be friends</h2>
+            <div class="d-flex flex-wrap gap-3">
+                <a href="#" class="social-btn btn-custom-outline">
+                    <span>Linkedin</span>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-btn btn-custom-outline">
+                  <span>GITHUB</span>
+                 <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="social-btn btn-custom-outline">
+                <span>Youtube</span>
+                <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="mailto:example@gmail.com" class="social-btn btn-custom-solid">
+                   <span>Email</span>
+                   <i class="fa-solid fa-envelope"></i>
+                </a>
+
+
+            </div>
+          </div>
+          
+        </div>
+        <footer class="footer">
+            <p class="copyright-text">
+                Copyright &copy; 2021 | <span class="highlight">All Rights Are Reserved By Codingal Education</span>
+            </p>
+    </footer>
+
+</body>
+</html>
